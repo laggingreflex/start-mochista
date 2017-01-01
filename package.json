@@ -1,6 +1,6 @@
 {
   "name": "start-mochista",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Mochista task for Start",
   "keywords": [
     "start",
@@ -8,7 +8,9 @@
     "mochista"
   ],
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "repository": "laggingreflex/start-mochista",
   "author": "laggingreflex",
   "license": "ISC",
