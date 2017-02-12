@@ -14,7 +14,7 @@
   "repository": "laggingreflex/start-mochista",
   "author": "laggingreflex",
   "license": "ISC",
-  "dependencies": {
-    "mochista": "0.4.0"
+  "peerDependencies": {
+    "mochista": "*"
   }
 }
