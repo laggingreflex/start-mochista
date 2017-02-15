@@ -1,3 +1,4 @@
-module.exports = config => input => log =>
-  require('mochista').default(config)
-  .then(({ run }) => run());
+module.exports = config => input => function mochista() {
+  return require('mochista').default(config)
+    .then(({ run }) => run());
+}
